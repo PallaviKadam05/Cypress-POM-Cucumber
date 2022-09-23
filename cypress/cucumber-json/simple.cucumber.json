@@ -1,0 +1,201 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Practice cypress",
+    "line": 1,
+    "id": "practice-cypress",
+    "tags": [],
+    "uri": "simple.feature",
+    "elements": [
+      {
+        "id": "practice-cypress;user-should-able-to-select-dropdown-option",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User should able to select dropdown option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User visits to the application",
+            "result": {
+              "status": "passed",
+              "duration": 11886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User clicks on dropdown option",
+            "result": {
+              "status": "passed",
+              "duration": 848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User selects selenium option",
+            "result": {
+              "status": "passed",
+              "duration": 659000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-cypress;user-should-able-to-select-radio-option",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User should able to select radio option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User visits to the application",
+            "result": {
+              "status": "passed",
+              "duration": 5055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User clicks on \"Radio1\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `undefined`, but never found it.\n    at Function.radioOption (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:82:32)\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:140:26)\n    at Context.resolveAndRunStepDefinition (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:20054:29)\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:19375:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User sees selected option \"Radio1\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-cypress;user-should-able-to-select-checkbox-option",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User should able to select checkbox option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User visits to the application",
+            "result": {
+              "status": "passed",
+              "duration": 7061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User clicks on \"option1\" checkbox",
+            "result": {
+              "status": "passed",
+              "duration": 527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User sees selected checkbox \"option1\"",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'should')\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:150:48)\n    at Context.resolveAndRunStepDefinition (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:20054:29)\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:19375:35)\nFrom previous event:\n    at Context.thenFn (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:155214:63)\n    at Context.then (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:155666:21)\n    at Context.<anonymous> (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:172120:23)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170781:17\nFrom previous event:\n    at runCommand (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170760:10)\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170901:16)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170930:18\nFrom previous event:\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170901:36)\nFrom previous event:\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:185174:79\nFrom previous event:\n    at Object.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:185169:23)\n    at Object.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:170956:17)\n    at cy.<computed> [as then] (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:172160:19)\n    at runnable.fn (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:172383:23)\n    at callFn (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125018:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125005:7)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178975:30\nFrom previous event:\n    at Object.onRunnableRun (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178960:19)\n    at $Cypress.action (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:168435:28)\n    at Runnable.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:176656:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125677:10)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125803:12\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125586:14)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125596:7\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125498:14)\n    at Hook.<anonymous> (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125559:7)\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178873:24)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178902:13\nFrom previous event:\n    at onNext (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178899:59)\n    at done (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:124958:5)\n    at callFn (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125041:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125005:7)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178975:30\nFrom previous event:\n    at Object.onRunnableRun (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:178960:19)\n    at $Cypress.action (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:168435:28)\n    at Runnable.run (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:176656:13)\n    at next (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125520:10)\n    at https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:125564:5\n    at timeslice (https://codenboxautomationlab.com/__cypress/runner/cypress_runner.js:119490:27)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-cypress;user-search-india-from-dynamic-input",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User search India from dynamic input",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User visits to the application",
+            "result": {
+              "status": "passed",
+              "duration": 7080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User search \"American Samoa\" from dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User verifies searched value \"American Samoa\"",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-cypress;user-over-the-mouse-to-see-list",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "User over the mouse to see list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User visits to the application",
+            "result": {
+              "status": "passed",
+              "duration": 5272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User overs the mouse on button to see list",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.mouse-hover .mouse-hover-content`, but never found it. Queried from element: <button#mousehover.btn.btn-primary>\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:162:54)\n    at Context.resolveAndRunStepDefinition (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:20054:29)\n    at Context.eval (https://codenboxautomationlab.com/__cypress/tests?p=cypress\\integration\\features\\simple.feature:19375:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

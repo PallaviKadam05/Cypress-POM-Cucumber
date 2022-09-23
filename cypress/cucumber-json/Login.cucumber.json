@@ -1,0 +1,47 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User login successfully",
+    "line": 1,
+    "id": "user-login-successfully",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "user-login-successfully;user-should-able-to-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should able to login",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User visits the page",
+            "result": {
+              "status": "passed",
+              "duration": 5338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User enters username 'pk' and password '@Pk@1234567890@'",
+            "result": {
+              "status": "passed",
+              "duration": 4312000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
